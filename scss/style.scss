@@ -1,0 +1,24 @@
+.nav-item a{
+    font-weight:600;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.96rem;
+ 
+}
+.nav-item>a:hover{
+    color:#67BC6B!important;
+}
+
+#main{
+    h1{
+        font-size: 2.8rem;
+        color: #000;
+        line-height: 60px;
+    }
+    p{
+        color: #454747;
+        font-size:1.1rem;
+        line-height: 30px;
+        font-weight:600;
+
+    }
+}
