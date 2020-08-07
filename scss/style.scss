@@ -29,6 +29,42 @@
     }
     img{
         margin-top:-121px;
-        
+       
+    }
+}
+#features{
+    h2{
+        font-size: 2.2rem;
+    }
+    h3{
+        font-size: 1.17rem;
+        line-height: 26px;
+    }
+    .card{
+        border-radius: 0.32rem;
+        border:none;
+       // box-shadow: 0px 2px 4px #918c8c;
+                 filter: drop-shadow(0 0 3px #d8d4d4);
+
+    }
+    .desc{
+        color: #535757;
+        font-size:1.13rem;
+        line-height: 34px;
+        font-weight:400;
+
+
+    }
+    .card p{
+        font-weight:400;
+        width:94%;
+    }
+    .card-body{
+        padding-top:3.5rem;
+        padding-left:0.8rem;
+        padding-right:0.8rem;
+    }
+    .card{
+        width: 94%;
     }
 }
