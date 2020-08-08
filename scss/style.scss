@@ -25,10 +25,10 @@
     a{
         box-shadow: 0px 2px 7px #918c8c;
         font-weight:300;
-        // filter: drop-shadow(0 0 1px #161414);
     }
     img{
         margin-top:-121px;
+        
        
     }
 }
@@ -43,8 +43,7 @@
     .card{
         border-radius: 0.32rem;
         border:none;
-       // box-shadow: 0px 2px 4px #918c8c;
-                 filter: drop-shadow(0 0 3px #d8d4d4);
+        filter: drop-shadow(0 0 3px #d8d4d4);
 
     }
     .desc{
@@ -57,14 +56,137 @@
     }
     .card p{
         font-weight:400;
-        width:94%;
+        // width:94%;
     }
     .card-body{
         padding-top:3.5rem;
         padding-left:0.8rem;
         padding-right:0.8rem;
+    }   
+    margin-bottom:6rem;
+}
+
+#convenience{
+    h3{
+        font-size: 2.3rem;
+        line-height: 2.5rem;
     }
+    h5{
+        font-size: 0.90rem;
+        letter-spacing: 3px;
+    }
+    .btn{
+        font-size: 1.15rem;
+    }
+    .desc2{
+        color: #535757;
+        font-size:1.15rem;
+        line-height: 34px;
+        font-weight:400;
+        width:63%;
+    }
+    .card-1{
+        background: url(../img/card-1-image-2.jpg);
+        background-size: 900px 500px;
+        background-position: 5% 80%;
+        border: none;
+        
+       
+    }
+    .card-2{
+        background: url(../img/card-2-image-3.jpg);
+        background-size: 900px 580px;
+        background-position: 30% 100%;
+        border: none;
+        
+    }
+    .card-title{
+        font-weight: 300;
+    }
+   
+}
+
+.page-t:after{
+    content: "";  
+    display: block; 
+    
+    width: 11.8%; 
+    padding-top: 20px;
+    border-bottom: 4px solid rgb(250, 246, 246); 
+    
+}
+// .overlay{
+//         background: rgba(141, 138, 138, 0.288);
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         width: 100%;
+//         height: 100%;
+        
+// }
+
+
+
+
+
+// * {
+//     background: #000 !important;
+//     color: #0f0 !important;
+//     outline: solid #f00 1px !important;
+//   } 
+
+  body{ 
+      overflow-x: hidden;
+}
+@media (max-width:991px){
     .card{
-        width: 94%;
+        margin-bottom:2rem;
     }
+    #main{
+        margin-bottom:5.5rem;
+    }
+    #features{
+        margin-bottom:0rem!important;
+        padding-bottom:2rem!important;
+    }
+
+    #features .desc , #convenience .main-title {
+        width: 95%!important;
+        text-align: center;
+    }
+    #convenience{
+        padding-top:1rem!important;
+        
+    }
+    #convenience .desc2{
+        width:100%;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    #main h1{
+        font-size: 2.3rem;
+        line-height: 50px;
+    }
+    br{
+        display: none;
+    }
+    #main a{
+        display: block;
+    }
+    .card-body img{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #features h2 {
+        font-size: 2rem;
+    }
+    .nav-link{
+    
+        text-align: center;
+    }
+    #convenience .card-text{
+        width: 100%!important;
+    }
+   
+    
 }
