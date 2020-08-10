@@ -42,10 +42,11 @@
   -webkit-text-stroke: 1px #ffffff; }
 
 .controls-top {
-  margin-bottom: 10rem; }
+  margin-bottom: 10rem;
+  margin-left: 8.8rem; }
 
 #main h1 {
-  font-size: 3rem;
+  font-size: 2.85rem;
   color: #000;
   line-height: 63px;
   margin-bottom: 1.8rem; }
@@ -58,12 +59,14 @@
   box-shadow: 0px 2px 7px #918c8c;
   font-weight: 300; }
 #main img {
-  margin-top: -121px; }
+  margin-top: -191px; }
 
 #features {
   margin-bottom: 6rem; }
   #features h2 {
-    font-size: 2.2rem; }
+    font-size: 2.2rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600; }
   #features h3 {
     font-size: 1.17rem;
     line-height: 26px; }
@@ -85,9 +88,11 @@
 
 #convenience {
   margin-bottom: 13rem; }
-  #convenience h3 {
-    font-size: 2.1rem;
-    line-height: 2.5rem; }
+  #convenience .main-title {
+    font-size: 2.16rem;
+    line-height: 2.5rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600; }
   #convenience h5 {
     font-size: 0.90rem;
     letter-spacing: 3px; }
@@ -110,10 +115,15 @@
     background-position: 30% 100%;
     border: none; }
   #convenience .card-title {
-    font-weight: 300; }
+    font-weight: 300;
+    font-size: 2rem; }
+  #convenience .card {
+    border-radius: 6px; }
 
 #investors h2 {
-  font-size: 2.3rem;
+  font-size: 2.2rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
   padding-top: 14px;
   line-height: 47px;
   margin-left: 4.3rem;
@@ -131,8 +141,10 @@
   padding-left: 3rem; }
 
 #future .card-title {
-  font-size: 2.3rem;
-  margin-top: 3.7rem; }
+  font-size: 2.2rem;
+  margin-top: 3.7rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600; }
 #future .card {
   filter: drop-shadow(1px 1px 4px #eeebeb); }
 #future .btn {
@@ -153,7 +165,7 @@
     margin-bottom: 1rem;
     font-size: 1.05rem; }
   #foot-links .custom-m {
-    margin-right: 7.2rem; }
+    margin-right: 5.2rem; }
   #foot-links .card-text {
     line-height: 7px; }
   #foot-links .second {
@@ -173,6 +185,11 @@
   width: 11.8%;
   padding-top: 20px;
   border-bottom: 4px solid #faf6f6; }
+
+#main-footer {
+  background: #f5f5f5; }
+  #main-footer p {
+    font-size: 0.91rem; }
 
 body {
   overflow-x: hidden; }
@@ -201,8 +218,8 @@ body {
     margin-bottom: 0px; }
 
   #main h1 {
-    font-size: 2.3rem;
-    line-height: 50px; }
+    font-size: 2.5rem;
+    line-height: 54px; }
 
   br {
     display: none; }
@@ -225,3 +242,79 @@ body {
 
   #foot-links .card {
     width: 100%; } }
+@media (max-width: 576px) {
+  #main-footer .col {
+    width: 100%;
+    justify-content: center; }
+
+  #convenience {
+    margin-bottom: 3rem; }
+    #convenience .desc2 {
+      font-size: 1.09rem;
+      text-align: center; }
+
+  #investors h2 {
+    margin-bottom: 3.2rem;
+    font-size: 1.92rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; }
+  #investors .quotation {
+    background: url(../img/quote.svg);
+    background-repeat: no-repeat;
+    background-size: 17%;
+    background-position: 6.3% 13.1%; }
+
+  .carousel-inner .card-body {
+    padding-left: 0;
+    text-align: center; }
+  .carousel-inner h4, .carousel-inner p {
+    padding-left: 0;
+    line-height: 28px;
+    margin-bottom: 1rem; }
+
+  #future .card-title {
+    font-size: 1.7rem;
+    line-height: 34px; }
+  #future .btn {
+    font-size: 1rem; }
+  #future .row {
+    margin-bottom: 3rem; }
+
+  .card {
+    margin-left: auto;
+    margin-right: auto; }
+
+  span {
+    display: block; }
+
+  #arrow-guide {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 6rem; }
+
+  .controls-top {
+    margin-left: 0;
+    margin-bottom: 6rem; }
+
+  #foot-links {
+    padding-top: 4.5rem; }
+    #foot-links li {
+      margin-bottom: 0.4rem; }
+    #foot-links .custom-m {
+      margin-right: 0; }
+    #foot-links .col-12 {
+      margin-top: 2rem;
+      margin-left: 1rem;
+      margin-bottom: 2rem; }
+    #foot-links .card-body {
+      text-align: center; }
+      #foot-links .card-body .btn {
+        margin-bottom: 2rem; }
+      #foot-links .card-body p {
+        margin-bottom: 1.3rem; }
+      #foot-links .card-body h5 {
+        margin-bottom: 1.6rem; } }
+@media (min-width: 768px) {
+  #foot-links #first {
+    margin-right: 6rem; } }

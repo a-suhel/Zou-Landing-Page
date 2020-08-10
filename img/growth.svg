@@ -1,10 +1,1 @@
-<?xml version="1.0"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve" width="512px" height="512px" class=""><g><g>
-	<g>
-		<path d="M371.451,0v90.353h-90.353v100.392h-90.353v90.353H90.353v90.353H0V512h512V0H371.451z M481.882,481.882H30.118v-80.314    h90.353v-90.353h100.392v-90.353h90.353V120.471h90.353V30.118h80.314V481.882z" data-original="#000000" class="active-path" data-old_color="#000000" fill="#FFFFFF"/>
-	</g>
-</g><g>
-	<g>
-		<polygon points="91.952,1.121 91.952,31.239 135.915,31.239 2.718,164.436 24.014,185.733 157.211,52.535 157.211,96.498     187.329,96.498 187.329,1.121   " data-original="#000000" class="active-path" data-old_color="#000000" fill="#FFFFFF"/>
-	</g>
-</g></g> </svg>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 81 34"><defs><style>.cls-1{fill:none;}.cls-1,.cls-2{stroke:#d1ead3;stroke-width:2px;}.cls-2{fill:#66bb6a;}</style></defs><title>icon 2</title><g id="_001" data-name="001"><g id="icon-2"><path id="Fill-1" class="cls-1" d="M80,1V33H25V1Z"/><polygon id="Fill-4" class="cls-1" points="1 33 41 33 41 25.8 1 25.8 1 33"/><polygon id="Stroke-5" class="cls-2" points="1 33 41 33 41 25.8 1 25.8 1 33"/><polygon id="Fill-7" class="cls-1" points="9 24.7 48 24.7 48 17.5 9 17.5 9 24.7"/><polygon id="Stroke-8" class="cls-2" points="9 24.7 48 24.7 48 17.5 9 17.5 9 24.7"/><polygon id="Fill-9" class="cls-1" points="17 16.5 57 16.5 57 9.3 17 9.3 17 16.5"/><polygon id="Stroke-10" class="cls-2" points="17 16.5 57 16.5 57 9.3 17 9.3 17 16.5"/><polygon id="Fill-11" class="cls-1" points="25 8.2 64 8.2 64 1 25 1 25 8.2"/><polygon id="Stroke-12" class="cls-2" points="25 8.2 64 8.2 64 1 25 1 25 8.2"/></g></g></svg>
