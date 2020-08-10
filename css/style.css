@@ -52,9 +52,10 @@
   margin-bottom: 1.8rem; }
 #main p {
   color: #454747;
-  font-size: 1.1rem;
+  font-size: 1.08rem;
   line-height: 34px;
-  font-weight: 600; }
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif; }
 #main a {
   box-shadow: 0px 2px 7px #918c8c;
   font-weight: 300; }
@@ -62,6 +63,10 @@
   margin-top: -191px; }
 
 #features {
+  background-image: url(../img/side-img.svg);
+  background-repeat: no-repeat;
+  background-size: 11%;
+  background-attachment: scroll;
   margin-bottom: 6rem; }
   #features h2 {
     font-size: 2.2rem;
@@ -87,7 +92,7 @@
     padding-right: 0.8rem; }
 
 #convenience {
-  margin-bottom: 13rem; }
+  margin-bottom: 4.35rem; }
   #convenience .main-title {
     font-size: 2.16rem;
     line-height: 2.5rem;
@@ -119,6 +124,33 @@
     font-size: 2rem; }
   #convenience .card {
     border-radius: 6px; }
+
+#path {
+  margin-bottom: 15.5rem; }
+  #path .container {
+    background: url(../img/path.svg);
+    background-size: cover; }
+  #path .first h2 p, #path .second h2, #path p {
+    font-family: 'Open Sans', sans-serif; }
+  #path h2 {
+    margin-top: 7.2rem;
+    font-size: 2.2rem;
+    font-weight: 400; }
+  #path .para-1 {
+    line-height: 30px;
+    font-size: 1.1rem; }
+  #path .sec h3 {
+    font-size: 1.55rem;
+    font-weight: 400;
+    line-height: 34px; }
+  #path .sec p {
+    font-size: 0.97rem;
+    font-weight: 100;
+    line-height: 25px; }
+  #path .first {
+    margin-bottom: 9rem; }
+  #path .sec {
+    padding-bottom: 8rem; }
 
 #investors h2 {
   font-size: 2.2rem;
@@ -240,6 +272,37 @@ body {
   #convenience .card-text {
     width: 100% !important; }
 
+  #path {
+    margin-bottom: 10.5rem; }
+    #path .container {
+      background: url(../img/path.svg);
+      background-size: cover; }
+    #path .first h2 p, #path .second h2, #path p {
+      font-family: 'Open Sans', sans-serif; }
+    #path h2 {
+      margin-top: 5.2rem;
+      font-size: 1.7rem;
+      font-weight: 400;
+      margin-bottom: 2rem; }
+    #path .para-1 {
+      line-height: 30px;
+      font-size: 1.1rem; }
+    #path .sec h3 {
+      font-size: 1.55rem;
+      font-weight: 400;
+      line-height: 34px;
+      margin-bottom: 2rem; }
+    #path .sec p {
+      font-size: 1rem;
+      font-weight: 100;
+      line-height: 25px; }
+    #path .first {
+      margin-bottom: 3rem;
+      text-align: center; }
+    #path .sec {
+      padding-bottom: 5rem;
+      text-align: center; }
+
   #foot-links .card {
     width: 100%; } }
 @media (max-width: 576px) {
@@ -247,11 +310,21 @@ body {
     width: 100%;
     justify-content: center; }
 
+  #features {
+    background-image: url(../img/side-img.svg);
+    background-repeat: no-repeat;
+    background-size: 21%;
+    background-attachment: scroll; }
+
   #convenience {
-    margin-bottom: 3rem; }
+    margin-bottom: 0rem;
+    padding-bottom: 0rem; }
     #convenience .desc2 {
       font-size: 1.09rem;
       text-align: center; }
+
+  #path {
+    margin-bottom: 6.5rem; }
 
   #investors h2 {
     margin-bottom: 3.2rem;
