@@ -1,33 +1,34 @@
 $primary: #66BB6A;
 
 .nav-item a{
-    font-weight:600;
+    font-weight: 600;
     font-family: 'Open Sans', sans-serif;
     font-size: 0.96rem;
  
 }
 .nav-item a:hover{
-    color: #66BB6A!important;
+    color:$primary!important;
 }
-#custom-style-button{
-        padding-left:2.8rem!important;
-        padding-right:2.8rem!important;
-        padding-bottom:0.6rem!important;
-        border-radius: 6px!important;
+.custom-style-button{
+        border-radius: 6px;
+        padding-left:2.8rem;
+        padding-right:2.8rem;
+        padding-bottom:0.6rem;
 }
+
 .testimonial-card{
         border-radius: 0.32rem;
         border:none;
         filter: drop-shadow(3px 3px 4px #d8d4d4);
         h4{
-            font-size:1.1rem;
+            font-size: 1.1rem;
             line-height: 25px;
         }
         .card-text{
             line-height: 32px;
-            font-size:1.05rem;
-            font-weight:400;
-            margin-bottom:2rem;
+            font-size: 1.05rem;
+            font-weight: 400;
+            margin-bottom: 2rem;
         }
         
 }
@@ -43,48 +44,49 @@ $primary: #66BB6A;
 }
 
 .arrow-1 i{
-    -webkit-text-stroke:1px #66BB6A;
+    -webkit-text-stroke: 1px #66BB6A;
 }
 .arrow-2 i{
-    -webkit-text-stroke:1px #ffffff;
+    -webkit-text-stroke: 1px #ffffff;
 }
 
 .controls-top{
-    margin-bottom:10rem;
-    margin-left:8.8rem;
+    margin-bottom: 10rem;
+    margin-left: 8.8rem;
 }
 // p{
 //     font-family: 'Open Sans', sans-serif;
 // }
 
-#main{
+.main{
+    
     h1{
         font-size: 2.85rem;
         color: #000;
         line-height: 63px;
-        margin-bottom:1.8rem;
+        margin-bottom: 1.8rem;
         
     }
     p{
         color: #454747;
-        font-size:1.08rem;
+        font-size: 1.08rem;
         line-height: 34px;
-        font-weight:400;
-        font-family:'Open Sans', sans-serif;
+        font-weight: 400;
+        font-family: 'Open Sans', sans-serif;
 
 
     }
     a{
         box-shadow: 0px 2px 7px #918c8c;
-        font-weight:300;
+        font-weight: 300;
     }
     img{
-        margin-top:-191px;
+        margin-top: -191px;
         
        
     }
 }
-#features{
+.features{
     background-image: url(../img/side-img.svg);
     background-repeat: no-repeat;
     background-size: 11%;
@@ -105,27 +107,35 @@ $primary: #66BB6A;
         filter: drop-shadow(0 0 3px #d8d4d4);
 
     }
+    .card:hover{
+        color: #fff;
+        background-color: $primary;
+        cursor: pointer;
+
+    }
+    .card-body img:hover{
+        fill: $primary;
+    }
     .desc{
         color: #535757;
-        font-size:1.13rem;
+        font-size: 1.13rem;
         line-height: 34px;
-        font-weight:400;
+        font-weight: 400;
 
 
     }
     .card p{
-        font-weight:400;
+        font-weight: 400;
         // width:94%;
     }
     .card-body{
-        padding-top:3.5rem;
-        padding-left:0.8rem;
-        padding-right:0.8rem;
+        padding: 3.5rem 0.8rem 1.25rem 0.8rem;
     }   
-    margin-bottom:6rem;
+    margin-bottom: 6rem;
 }
 
-#convenience{
+.convenience{
+    
     .main-title{
         font-size: 2.16rem;
         line-height: 2.5rem;
@@ -143,28 +153,29 @@ $primary: #66BB6A;
     }
     .desc2{
         color: #535757;
-        font-size:1.15rem;
+        font-size: 1.15rem;
         line-height: 34px;
-        font-weight:400;
-        width:63%;
+        font-weight: 400;
+        width: 63%;
     }
     .card-1{
         background: url(../img/card-1-image-2.jpg);
         background-size: 900px 500px;
         background-position: 5% 80%;
-        border: none;
+        
         
        
     }
     .card-2{
         background: url(../img/card-2-image-3.jpg);
         background-size: 900px 580px;
-        background-position: 30% 100%;
+        background-position: 30% 100%; 
+    }
+    .card-1, .card-2{
         border: none;
-        
     }
     .card-title{
-        font-weight:300;
+        font-weight: 300;
         font-size: 2rem;
 
     }
@@ -174,25 +185,28 @@ $primary: #66BB6A;
    margin-bottom: 4.35rem;;
 }
 
-#path
+.path
 {
     margin-bottom: 15.5rem;
+   
     .container{
         background: url(../img/path.svg);
         background-size: cover;
+        border-radius: 7px;
+        max-width:1200px;
         
         }
-        .first h2 p , .second h2,p{
+        .first h2 p , .second h2,  p{
             font-family: 'Open Sans', sans-serif;
         }
         h2{
-            margin-top:7.2rem;   
+            margin-top: 7.2rem;   
             font-size: 2.2rem;  
             font-weight: 400;      
         }
         .para-1{
             line-height: 30px;
-            font-size:1.1rem;
+            font-size: 1.1rem;
            
         }
         .sec h3{
@@ -209,7 +223,7 @@ $primary: #66BB6A;
             margin-bottom: 9rem;
         }
         .sec{
-            padding-bottom:8rem;
+            padding-bottom: 8rem;
         }
 } 
     
@@ -218,21 +232,20 @@ $primary: #66BB6A;
     
 
 
-#investors{
+.investors{
     h2{
         font-size: 2.2rem;
         font-family: 'Open Sans', sans-serif;
         font-weight: 600;
-        padding-top:14px;
+        padding-top: 14px;
         line-height: 47px;
-        margin-left:4.3rem;
-        margin-bottom:8rem;
+        margin-left: 4.3rem;
+        margin-bottom: 8rem;
     }
     .quotation{
-        background: url(../img/quote.svg);
-        background-repeat: no-repeat;
+        background: url(../img/quote.svg) no-repeat 8.3% 0.1% ;
         background-size: 13%;
-        background-position: 8.3% 0.1%;
+        
     }
     
 }
@@ -243,15 +256,15 @@ $primary: #66BB6A;
         vertical-align: top;
     }
     .card-body{
-        padding-top:2.5rem;
-        padding-left:3rem;
+        padding-top: 2.5rem;
+        padding-left: 3rem;
     }
 } 
 
-#future{
+.future{
     .card-title{
         font-size: 2.2rem;
-        margin-top:3.7rem;
+        margin-top: 3.7rem;
         font-family: 'Open Sans', sans-serif;
         font-weight: 600;
         
@@ -261,26 +274,26 @@ $primary: #66BB6A;
 
     }
     .btn{
-        padding-left:5.45rem;
-        padding-right:5.45rem;
+        padding-left: 5.45rem;
+        padding-right: 5.45rem;
         filter: drop-shadow(5px 5px 4px #d8d4d4);
-        font-weight:300;
+        font-weight: 300;
     }
     
     
 }
-#foot-links{
+.foot-links{
     li{
-        margin-bottom:1rem;
+        margin-bottom: 1rem;
         font-size: 1rem;
     }
     h6{
-        padding-left:2.5rem;
-        margin-bottom:1rem;
+        padding-left: 2.5rem;
+        margin-bottom: 1rem;
         font-size: 1.05rem;
     }
     .custom-m{
-        margin-right:5.2rem;
+        margin-right: 5.2rem;
     }
     .card-text{
         line-height: 7px;
@@ -292,7 +305,7 @@ $primary: #66BB6A;
     .card{
         border-radius: 6px;
         font-weight: 300;
-        min-width:100%!important;
+        min-width: 100%!important;
     }
     .card-title{
         font-weight: 300;
@@ -311,10 +324,10 @@ $primary: #66BB6A;
     
     width: 11.8%; 
     padding-top: 20px;
-    border-bottom: 4px solid rgb(250, 246, 246); 
+    border-bottom: 4px solid #faf6f6; 
     
 }
-#main-footer{
+.main-footer{
     background: #f5f5f5;
     p{
         font-size: 0.91rem;
@@ -334,79 +347,76 @@ $primary: #66BB6A;
 
 
 
-// * {
-//     background: #000 !important;
-//     color: #0f0 !important;
-//     outline: solid #f00 1px !important;
-//   } 
+
 
   body{ 
       overflow-x: hidden;
 }
 @media (max-width:991px){
     .card{
-        margin-bottom:2rem;
+        margin-bottom: 2rem;
     }
-    #main{
-        margin-bottom:5.5rem;
+    .main{
+        margin-bottom: 5.5rem;
     }
-    #features{
-        margin-bottom:0rem!important;
-        padding-bottom:2rem!important;
+    .features{
+        margin-bottom: 0rem!important;
+        padding-bottom: 2rem!important;
             
         
     }
 
-    #features .desc , #convenience .main-title {
+    .features .desc , .convenience .main-title {
         width: 95%!important;
         text-align: center;
     }
-    #convenience{
-        padding-top:1rem!important;
-        
+    .convenience{
+        padding-top: 1rem!important;
+        .desc2{
+            width:100%;
+            text-align: center;
+            margin-bottom: 0px;
+        }
+        .card-text{
+            width: 100%!important;
+        }
     }
-    #convenience .desc2{
-        width:100%;
-        text-align: center;
-        margin-bottom: 0px;
-    }
-    #main h1{
+     
+    .main h1{
         font-size: 2.5rem;
         line-height: 54px;
     }
     br{
         display: none;
     }
-    #main a{
+    .main a{
         display: block;
     }
     .card-body img{
         margin-left: auto;
         margin-right: auto;
     }
-    #features h2 {
+    .features h2 {
         font-size: 2rem;
     }
     .nav-link{
     
         text-align: center;
     }
-    #convenience .card-text{
-        width: 100%!important;
-    }
+     
 
-    #path{
+    .path{
     margin-bottom: 10.5rem;
     .container{
         background: url(../img/path.svg);
         background-size: cover;
         
         }
-        .first h2 p , .second h2,p{
+        .first h2 p , .second h2 p{
             font-family: 'Open Sans', sans-serif;
         }
         h2{
-            margin-top:5.2rem;   
+            margin-top: 5.2rem;   
             font-size: 1.7rem;  
             font-weight: 400;   
             margin-bottom: 2rem;   
@@ -433,13 +443,13 @@ $primary: #66BB6A;
             text-align: center;
         }
         .sec{
-            padding-bottom:5rem;
+            padding-bottom: 5rem;
             text-align: center;
         }
     
     }
-    #foot-links .card{
-            width:100%;
+    .foot-links .card{
+            width: 100%;
         }
     
 //    *{
@@ -450,20 +460,20 @@ $primary: #66BB6A;
 }
 @media (max-width:576px)
 {
-    #main-footer{
+    .main-footer{
         .col{
-            width:100%;
+            width: 100%;
             justify-content: center;
         }
     }
-    #features{
+    .features{
         background-image: url(../img/side-img.svg);
         background-repeat: no-repeat;
         background-size: 21%;
         background-attachment: scroll;
     }
    
-    #convenience {
+    .convenience {
         margin-bottom: 0rem;
         padding-bottom: 0rem;
         .desc2{
@@ -471,22 +481,21 @@ $primary: #66BB6A;
             text-align: center;
         }
     }
-    #path{
+    .path{
     margin-bottom: 6.5rem;
 }
-    #investors {
+    .investors {
         h2{
             margin-bottom: 3.2rem;
             font-size: 1.92rem;
-            margin-left:auto;
-            margin-right:auto;
+            margin-left: auto;
+            margin-right: auto;
             text-align: center;
         }
         .quotation{
-            background: url(../img/quote.svg);
-            background-repeat: no-repeat;
+            background: url(../img/quote.svg) no-repeat 6.3% 13.1% ;
             background-size: 17%;
-            background-position: 6.3% 13.1%;
+           
         }
 
     }
@@ -505,13 +514,13 @@ $primary: #66BB6A;
         }
         
     } 
-    #future{
+    .future{
         .card-title {
             font-size: 1.7rem;
             line-height: 34px;
         }
         .btn{
-            font-size:1rem;
+            font-size: 1rem;
         }
         .row{
             margin-bottom: 3rem;
@@ -521,8 +530,8 @@ $primary: #66BB6A;
      
     .card{
         
-        margin-left:auto;
-        margin-right:auto;
+        margin-left: auto;
+        margin-right: auto;
     }
     
     span{
@@ -530,28 +539,25 @@ $primary: #66BB6A;
         
     }
     #arrow-guide{
-        margin-left:auto;
-        margin-right:auto;
+        margin-left: auto;
+        margin-right: auto;
         margin-bottom: 6rem;
     }
     .controls-top {
         margin-left: 0;
         margin-bottom: 6rem;
     }
-    #foot-links{
-        .col{
-        
-        }
+    .foot-links{
         li{
             margin-bottom: 0.4rem;
         }
         .custom-m{
-            margin-right:0;
+            margin-right: 0;
         }
         padding-top: 4.5rem;
         .col-12{
-            margin-top:2rem;
-            margin-left:1rem;
+            margin-top: 2rem;
+            margin-left: 1rem;
             margin-bottom: 2rem;
         }
         .card-body{
@@ -573,10 +579,17 @@ $primary: #66BB6A;
 
 }
 @media (min-width: 768px){
-    #foot-links{
-        #first{
+    .foot-links{
+        .first{
             margin-right: 6rem;
         }
     }
 }
 
+// Debugging Code Snippet
+
+// * {
+//     background: #000 !important;
+//     color: #0f0 !important;
+//     outline: solid #f00 1px !important;
+//   } 

@@ -6,11 +6,11 @@
 .nav-item a:hover {
   color: #66BB6A !important; }
 
-#custom-style-button {
-  padding-left: 2.8rem !important;
-  padding-right: 2.8rem !important;
-  padding-bottom: 0.6rem !important;
-  border-radius: 6px !important; }
+.custom-style-button {
+  border-radius: 6px;
+  padding-left: 2.8rem;
+  padding-right: 2.8rem;
+  padding-bottom: 0.6rem; }
 
 .testimonial-card {
   border-radius: 0.32rem;
@@ -45,114 +45,120 @@
   margin-bottom: 10rem;
   margin-left: 8.8rem; }
 
-#main h1 {
+.main h1 {
   font-size: 2.85rem;
   color: #000;
   line-height: 63px;
   margin-bottom: 1.8rem; }
-#main p {
+.main p {
   color: #454747;
   font-size: 1.08rem;
   line-height: 34px;
   font-weight: 400;
   font-family: 'Open Sans', sans-serif; }
-#main a {
+.main a {
   box-shadow: 0px 2px 7px #918c8c;
   font-weight: 300; }
-#main img {
+.main img {
   margin-top: -191px; }
 
-#features {
+.features {
   background-image: url(../img/side-img.svg);
   background-repeat: no-repeat;
   background-size: 11%;
   background-attachment: scroll;
   margin-bottom: 6rem; }
-  #features h2 {
+  .features h2 {
     font-size: 2.2rem;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600; }
-  #features h3 {
+  .features h3 {
     font-size: 1.17rem;
     line-height: 26px; }
-  #features .card {
+  .features .card {
     border-radius: 0.32rem;
     border: none;
     filter: drop-shadow(0 0 3px #d8d4d4); }
-  #features .desc {
+  .features .card:hover {
+    color: #fff;
+    background-color: #66BB6A;
+    cursor: pointer; }
+  .features .card-body img:hover {
+    fill: #66BB6A; }
+  .features .desc {
     color: #535757;
     font-size: 1.13rem;
     line-height: 34px;
     font-weight: 400; }
-  #features .card p {
+  .features .card p {
     font-weight: 400; }
-  #features .card-body {
-    padding-top: 3.5rem;
-    padding-left: 0.8rem;
-    padding-right: 0.8rem; }
+  .features .card-body {
+    padding: 3.5rem 0.8rem 1.25rem 0.8rem; }
 
-#convenience {
+.convenience {
   margin-bottom: 4.35rem; }
-  #convenience .main-title {
+  .convenience .main-title {
     font-size: 2.16rem;
     line-height: 2.5rem;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600; }
-  #convenience h5 {
+  .convenience h5 {
     font-size: 0.90rem;
     letter-spacing: 3px; }
-  #convenience .btn {
+  .convenience .btn {
     font-size: 1.15rem; }
-  #convenience .desc2 {
+  .convenience .desc2 {
     color: #535757;
     font-size: 1.15rem;
     line-height: 34px;
     font-weight: 400;
     width: 63%; }
-  #convenience .card-1 {
+  .convenience .card-1 {
     background: url(../img/card-1-image-2.jpg);
     background-size: 900px 500px;
-    background-position: 5% 80%;
-    border: none; }
-  #convenience .card-2 {
+    background-position: 5% 80%; }
+  .convenience .card-2 {
     background: url(../img/card-2-image-3.jpg);
     background-size: 900px 580px;
-    background-position: 30% 100%;
+    background-position: 30% 100%; }
+  .convenience .card-1, .convenience .card-2 {
     border: none; }
-  #convenience .card-title {
+  .convenience .card-title {
     font-weight: 300;
     font-size: 2rem; }
-  #convenience .card {
+  .convenience .card {
     border-radius: 6px; }
 
-#path {
+.path {
   margin-bottom: 15.5rem; }
-  #path .container {
+  .path .container {
     background: url(../img/path.svg);
-    background-size: cover; }
-  #path .first h2 p, #path .second h2, #path p {
+    background-size: cover;
+    border-radius: 7px;
+    max-width: 1200px; }
+  .path .first h2 p, .path .second h2, .path p {
     font-family: 'Open Sans', sans-serif; }
-  #path h2 {
+  .path h2 {
     margin-top: 7.2rem;
     font-size: 2.2rem;
     font-weight: 400; }
-  #path .para-1 {
+  .path .para-1 {
     line-height: 30px;
     font-size: 1.1rem; }
-  #path .sec h3 {
+  .path .sec h3 {
     font-size: 1.55rem;
     font-weight: 400;
     line-height: 34px; }
-  #path .sec p {
+  .path .sec p {
     font-size: 0.97rem;
     font-weight: 100;
     line-height: 25px; }
-  #path .first {
+  .path .first {
     margin-bottom: 9rem; }
-  #path .sec {
+  .path .sec {
     padding-bottom: 8rem; }
 
-#investors h2 {
+.investors h2 {
   font-size: 2.2rem;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
@@ -160,11 +166,9 @@
   line-height: 47px;
   margin-left: 4.3rem;
   margin-bottom: 8rem; }
-#investors .quotation {
-  background: url(../img/quote.svg);
-  background-repeat: no-repeat;
-  background-size: 13%;
-  background-position: 8.3% 0.1%; }
+.investors .quotation {
+  background: url(../img/quote.svg) no-repeat 8.3% 0.1%;
+  background-size: 13%; }
 
 .carousel-inner h4 {
   vertical-align: top; }
@@ -172,43 +176,43 @@
   padding-top: 2.5rem;
   padding-left: 3rem; }
 
-#future .card-title {
+.future .card-title {
   font-size: 2.2rem;
   margin-top: 3.7rem;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600; }
-#future .card {
+.future .card {
   filter: drop-shadow(1px 1px 4px #eeebeb); }
-#future .btn {
+.future .btn {
   padding-left: 5.45rem;
   padding-right: 5.45rem;
   filter: drop-shadow(5px 5px 4px #d8d4d4);
   font-weight: 300; }
 
-#foot-links {
+.foot-links {
   padding-top: 9rem;
   background: #f5f5f5;
   background-size: 100% 100%; }
-  #foot-links li {
+  .foot-links li {
     margin-bottom: 1rem;
     font-size: 1rem; }
-  #foot-links h6 {
+  .foot-links h6 {
     padding-left: 2.5rem;
     margin-bottom: 1rem;
     font-size: 1.05rem; }
-  #foot-links .custom-m {
+  .foot-links .custom-m {
     margin-right: 5.2rem; }
-  #foot-links .card-text {
+  .foot-links .card-text {
     line-height: 7px; }
-  #foot-links .second {
+  .foot-links .second {
     font-size: 1.1rem; }
-  #foot-links .card {
+  .foot-links .card {
     border-radius: 6px;
     font-weight: 300;
     min-width: 100% !important; }
-  #foot-links .card-title {
+  .foot-links .card-title {
     font-weight: 300; }
-  #foot-links .container {
+  .foot-links .container {
     padding-bottom: 3rem; }
 
 .page-t:after {
@@ -218,9 +222,9 @@
   padding-top: 20px;
   border-bottom: 4px solid #faf6f6; }
 
-#main-footer {
+.main-footer {
   background: #f5f5f5; }
-  #main-footer p {
+  .main-footer p {
     font-size: 0.91rem; }
 
 body {
@@ -230,113 +234,109 @@ body {
   .card {
     margin-bottom: 2rem; }
 
-  #main {
+  .main {
     margin-bottom: 5.5rem; }
 
-  #features {
+  .features {
     margin-bottom: 0rem !important;
     padding-bottom: 2rem !important; }
 
-  #features .desc, #convenience .main-title {
+  .features .desc, .convenience .main-title {
     width: 95% !important;
     text-align: center; }
 
-  #convenience {
+  .convenience {
     padding-top: 1rem !important; }
+    .convenience .desc2 {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 0px; }
+    .convenience .card-text {
+      width: 100% !important; }
 
-  #convenience .desc2 {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 0px; }
-
-  #main h1 {
+  .main h1 {
     font-size: 2.5rem;
     line-height: 54px; }
 
   br {
     display: none; }
 
-  #main a {
+  .main a {
     display: block; }
 
   .card-body img {
     margin-left: auto;
     margin-right: auto; }
 
-  #features h2 {
+  .features h2 {
     font-size: 2rem; }
 
   .nav-link {
     text-align: center; }
 
-  #convenience .card-text {
-    width: 100% !important; }
-
-  #path {
+  .path {
     margin-bottom: 10.5rem; }
-    #path .container {
+    .path .container {
       background: url(../img/path.svg);
       background-size: cover; }
-    #path .first h2 p, #path .second h2, #path p {
+    .path .first h2 p, .path .second h2 p {
       font-family: 'Open Sans', sans-serif; }
-    #path h2 {
+    .path h2 {
       margin-top: 5.2rem;
       font-size: 1.7rem;
       font-weight: 400;
       margin-bottom: 2rem; }
-    #path .para-1 {
+    .path .para-1 {
       line-height: 30px;
       font-size: 1.1rem; }
-    #path .sec h3 {
+    .path .sec h3 {
       font-size: 1.55rem;
       font-weight: 400;
       line-height: 34px;
       margin-bottom: 2rem; }
-    #path .sec p {
+    .path .sec p {
       font-size: 1rem;
       font-weight: 100;
       line-height: 25px; }
-    #path .first {
+    .path .first {
       margin-bottom: 3rem;
       text-align: center; }
-    #path .sec {
+    .path .sec {
       padding-bottom: 5rem;
       text-align: center; }
 
-  #foot-links .card {
+  .foot-links .card {
     width: 100%; } }
 @media (max-width: 576px) {
-  #main-footer .col {
+  .main-footer .col {
     width: 100%;
     justify-content: center; }
 
-  #features {
+  .features {
     background-image: url(../img/side-img.svg);
     background-repeat: no-repeat;
     background-size: 21%;
     background-attachment: scroll; }
 
-  #convenience {
+  .convenience {
     margin-bottom: 0rem;
     padding-bottom: 0rem; }
-    #convenience .desc2 {
+    .convenience .desc2 {
       font-size: 1.09rem;
       text-align: center; }
 
-  #path {
+  .path {
     margin-bottom: 6.5rem; }
 
-  #investors h2 {
+  .investors h2 {
     margin-bottom: 3.2rem;
     font-size: 1.92rem;
     margin-left: auto;
     margin-right: auto;
     text-align: center; }
-  #investors .quotation {
-    background: url(../img/quote.svg);
-    background-repeat: no-repeat;
-    background-size: 17%;
-    background-position: 6.3% 13.1%; }
+  .investors .quotation {
+    background: url(../img/quote.svg) no-repeat 6.3% 13.1%;
+    background-size: 17%; }
 
   .carousel-inner .card-body {
     padding-left: 0;
@@ -346,12 +346,12 @@ body {
     line-height: 28px;
     margin-bottom: 1rem; }
 
-  #future .card-title {
+  .future .card-title {
     font-size: 1.7rem;
     line-height: 34px; }
-  #future .btn {
+  .future .btn {
     font-size: 1rem; }
-  #future .row {
+  .future .row {
     margin-bottom: 3rem; }
 
   .card {
@@ -370,24 +370,24 @@ body {
     margin-left: 0;
     margin-bottom: 6rem; }
 
-  #foot-links {
+  .foot-links {
     padding-top: 4.5rem; }
-    #foot-links li {
+    .foot-links li {
       margin-bottom: 0.4rem; }
-    #foot-links .custom-m {
+    .foot-links .custom-m {
       margin-right: 0; }
-    #foot-links .col-12 {
+    .foot-links .col-12 {
       margin-top: 2rem;
       margin-left: 1rem;
       margin-bottom: 2rem; }
-    #foot-links .card-body {
+    .foot-links .card-body {
       text-align: center; }
-      #foot-links .card-body .btn {
+      .foot-links .card-body .btn {
         margin-bottom: 2rem; }
-      #foot-links .card-body p {
+      .foot-links .card-body p {
         margin-bottom: 1.3rem; }
-      #foot-links .card-body h5 {
+      .foot-links .card-body h5 {
         margin-bottom: 1.6rem; } }
 @media (min-width: 768px) {
-  #foot-links #first {
+  .foot-links .first {
     margin-right: 6rem; } }
