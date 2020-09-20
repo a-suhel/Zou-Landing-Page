@@ -1,5 +1,13 @@
 $primary: #66BB6A;
 
+.bg-end{
+    background: url(../img/footer-01.svg) no-repeat;
+    background-size: cover;
+    background-position: 70%;
+    background-attachment: fixed;
+    
+}
+
 .nav-item a{
     font-weight: 600;
     font-family: 'Open Sans', sans-serif;
@@ -311,8 +319,7 @@ $primary: #66BB6A;
         font-weight: 300;
     }
     padding-top: 9rem;
-    background: #f5f5f5;
-    background-size: 100% 100%;
+    
 .container{
     padding-bottom: 3rem;
 }
@@ -328,7 +335,7 @@ $primary: #66BB6A;
     
 }
 .main-footer{
-    background: #f5f5f5;
+    
     p{
         font-size: 0.91rem;
     }

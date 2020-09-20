@@ -1,3 +1,8 @@
+.bg-end {
+  background: url(../img/footer-01.svg) no-repeat;
+  background-size: cover;
+  background-position: 70%; }
+
 .nav-item a {
   font-weight: 600;
   font-family: 'Open Sans', sans-serif;
@@ -190,9 +195,7 @@
   font-weight: 300; }
 
 .foot-links {
-  padding-top: 9rem;
-  background: #f5f5f5;
-  background-size: 100% 100%; }
+  padding-top: 9rem; }
   .foot-links li {
     margin-bottom: 1rem;
     font-size: 1rem; }
@@ -222,10 +225,8 @@
   padding-top: 20px;
   border-bottom: 4px solid #faf6f6; }
 
-.main-footer {
-  background: #f5f5f5; }
-  .main-footer p {
-    font-size: 0.91rem; }
+.main-footer p {
+  font-size: 0.91rem; }
 
 body {
   overflow-x: hidden; }
