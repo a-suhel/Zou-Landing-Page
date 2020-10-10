@@ -1,7 +1,8 @@
 .bg-end {
   background: url(../img/footer-01.svg) no-repeat;
   background-size: cover;
-  background-position: 70%; }
+  background-position: 70%;
+  background-attachment: fixed; }
 
 .nav-item a {
   font-weight: 600;
